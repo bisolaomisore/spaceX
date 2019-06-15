@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front End Challenge
 
-## Available Scripts
+- This challenge is designed to be flexible in how you wish to demonstrate your technical and design capabilities.
+- The challenge is to make a one-page website UI that displays information about SpaceX's rockets launches
 
-In the project directory, you can run:
+## Base Requirements For All Levels
 
-### `npm start`
+- Display information based on SpaceX's Launches json feed here: https://github.com/r-spacex/SpaceX-API
+  - Pick which information you want to show, make it visually appealing
+- A clean professional modern look
+- Clean, readable, maintainable codebase
+- Source code on Github
+- Cross browser support (or graceful degradation)
+- Responsive design and implementation
+- A good user experience
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Levels of Effort
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Choose one of the following
 
-### `npm test`
+### Novice
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TASKS
 
-### `npm run build`
+- All of the base requirements
+- Create and implement (using HTML, CSS and JS) a basic design
+- Use a CSS Framework (Bootstrap, Foundation, Pure, etc.…)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Intermediate
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+TASKS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- All of the base, and novice requirements
+- Use a JavaScript framework (Angular, React, Backbone, etc...)
+- Use SASS or LESS for custom CSS
+- Make use of CSS animations
 
-### `npm run eject`
+### Expert
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+TASKS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- All of the base, novice, and intermediate requirements
+- Use a build tool like Webpack/Gulp with linting, validation, minification, etc
+- Host the website on the service of your choice (We enjoy cloud hosting like Azure or AWS, but we would also settle for a *.github.io address)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Possible Bonuses
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Implement a [stripe style menu dropdown](https://stripe.com/) including animations)
+- Search Bar
+- Integration with other APIs
+- A Like or Comment field
+- Do it in TypeScript
+- A clean and understandable git commit log
