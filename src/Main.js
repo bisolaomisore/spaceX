@@ -16,7 +16,7 @@ class Main extends Component {
         <div>
           <h1>Space X</h1>
           <ul className="header">
-            <li><NavLink to="/">Countdown</NavLink></li>
+            <li><NavLink exact to="/">Countdown</NavLink></li>
             <li><NavLink to="/future">Future</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
           </ul>
