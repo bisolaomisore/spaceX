@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
 import Countdown from "./Countdown";
 import Future from "./Future";
 import About from "./About";
@@ -14,12 +15,17 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Space X</h1>
-          <ul className="header">
-            <li><NavLink exact to="/">Countdown</NavLink></li>
-            <li><NavLink to="/future">Future</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
-          </ul>
+          <Nav className="justify-content-center pb-4" variant="pills" defaultActiveKey="/">
+            <Nav.Item>
+              <Nav.Link as={NavLink} exact to="/">Countdown</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={NavLink} to="/future">Future</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+            </Nav.Item>
+          </Nav>
           <div className="content">
             <Route exact path="/" component={Countdown}/>
             <Route path="/future" component={Future}/>
