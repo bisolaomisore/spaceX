@@ -9,7 +9,7 @@ class Future extends Component {
   }
 
   componentDidMount() {
-    this.getData();
+    // this.getData();
   }
 
   getData() {

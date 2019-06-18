@@ -10,7 +10,7 @@ class About extends Component {
   }
 
   componentDidMount() {
-    this.getData();
+    // this.getData();
   }
 
   getData() {
