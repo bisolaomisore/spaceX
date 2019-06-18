@@ -5,6 +5,10 @@ const SpacexApiWrapper = require("spacex-api-wrapper");
 class Future extends Component {
   constructor(props, context) {
     super(props, context);
+
+    this.state = {
+      data: ""
+    };
     this.getData = this.getData.bind(this);
   }
 
@@ -14,7 +18,9 @@ class Future extends Component {
 
   getData() {
     SpacexApiWrapper.getUpcomingLaunches({limit: 5}).then((data) => {
-      console.log(data);
+      this.setState({
+        data: data
+      });
     });
   }
 

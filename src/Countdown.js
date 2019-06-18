@@ -5,6 +5,11 @@ const SpacexApiWrapper = require("spacex-api-wrapper");
 class Countdown extends Component {
   constructor(props, context) {
     super(props, context);
+
+    this.state = {
+      data: ""
+    };
+
     this.getData = this.getData.bind(this);
   }
 
@@ -14,7 +19,9 @@ class Countdown extends Component {
 
   getData() {
     SpacexApiWrapper.getNextLaunch().then((data) => {
-      console.log(data);
+      this.setState({
+        data: data
+      });
     });
   }
 
