@@ -36,8 +36,9 @@ class Future extends Component {
   }
 
   getData() {
-    SpacexApiWrapper.getUpcomingLaunches()
-      .then((data) => this.setState({ data: data }));
+    fetch("https://api.spacexdata.com/v3/launches/upcoming")
+      .then(res => res.json())
+      .then(data => this.setState({ data: data }));
   }
 
   render() {

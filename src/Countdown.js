@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const SpacexApiWrapper = require("spacex-api-wrapper");
-
 class Countdown extends Component {
   constructor(props, context) {
     super(props, context);
@@ -24,8 +22,9 @@ class Countdown extends Component {
   }
 
   getData() {
-    SpacexApiWrapper.getNextLaunch()
-      .then((data) =>  this.setState({ data: data }));
+    fetch("https://api.spacexdata.com/v3/launches/next")
+      .then(res => res.json())
+      .then(data =>  this.setState({ data: data }));
   }
 
   tick() {
