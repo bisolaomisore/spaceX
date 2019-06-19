@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table'
 
-const SpacexApiWrapper = require("spacex-api-wrapper");
-
 class Future extends Component {
   constructor(props, context) {
     super(props, context);
