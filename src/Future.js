@@ -7,16 +7,11 @@ const SpacexApiWrapper = require("spacex-api-wrapper");
 class Future extends Component {
   constructor(props, context) {
     super(props, context);
-
-    this.state = {
-      data: []
-    };
+    this.state = { data: [] };
     this.getData = this.getData.bind(this);
   }
 
-  componentDidMount() {
-    this.getData();
-  }
+  componentDidMount() { this.getData(); }
 
   renderLaunchData() {
     if (this.state.data.length > 0) {

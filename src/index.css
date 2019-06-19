@@ -34,3 +34,32 @@ body {
 .site-name {
   min-width: 300px;
 }
+
+.countdownTime {
+  line-height: 1;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.countdownMeasure, .countdownText {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+  .countdownTime { font-size: 3rem; }
+  .countdownMeasure, .countdownText { font-size: 1.4rem; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .countdownTime { font-size: 7rem; }
+  .countdownMeasure, .countdownText { font-size: 2rem; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .countdownTime { font-size: 10rem; }
+  .countdownMeasure, .countdownText { font-size: 2rem; }
+}
