@@ -3,8 +3,6 @@ import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const SpacexApiWrapper = require("spacex-api-wrapper");
-
 class About extends Component {
 
   constructor(props, context) {
@@ -16,8 +14,9 @@ class About extends Component {
   componentDidMount() { this.getData(); }
 
   getData() {
-    SpacexApiWrapper.info()
-      .then((data) => this.setState({ data: data }));
+    fetch("https://api.spacexdata.com/v3/info")
+      .then(res => res.json())
+      .then(data => this.setState({ data: data }));
   }
 
   render() {
