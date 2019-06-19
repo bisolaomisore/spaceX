@@ -26,3 +26,11 @@ body {
   background-repeat:no-repeat;
   background-size: contain;
 }
+
+.next-launches {
+  color: #fff;
+}
+
+.site-name {
+  min-width: 300px;
+}
