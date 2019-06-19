@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spaceX/static/css/main.ff328ecf.chunk.css",
+    "main.css": "/spaceX/static/css/main.32a0250f.chunk.css",
     "main.js": "/spaceX/static/js/main.fdab1b25.chunk.js",
     "main.js.map": "/spaceX/static/js/main.fdab1b25.chunk.js.map",
     "runtime~main.js": "/spaceX/static/js/runtime~main.e0cdc5fa.js",
@@ -8,9 +8,9 @@
     "static/js/2.a361981f.chunk.js": "/spaceX/static/js/2.a361981f.chunk.js",
     "static/js/2.a361981f.chunk.js.map": "/spaceX/static/js/2.a361981f.chunk.js.map",
     "index.html": "/spaceX/index.html",
-    "precache-manifest.daf095c30373bdd6e286068d69de7619.js": "/spaceX/precache-manifest.daf095c30373bdd6e286068d69de7619.js",
+    "precache-manifest.041d6c71281f9af64dc9d798d5632454.js": "/spaceX/precache-manifest.041d6c71281f9af64dc9d798d5632454.js",
     "service-worker.js": "/spaceX/service-worker.js",
-    "static/css/main.ff328ecf.chunk.css.map": "/spaceX/static/css/main.ff328ecf.chunk.css.map",
+    "static/css/main.32a0250f.chunk.css.map": "/spaceX/static/css/main.32a0250f.chunk.css.map",
     "static/media/index.scss": "/spaceX/static/media/spaceship.fe467a41.svg"
   }
 }
