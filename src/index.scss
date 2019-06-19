@@ -3,21 +3,13 @@ body {
   color: #fff;
 }
 
-.red {
-  background-color: red;
-}
-
-.nav-link {
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-item .nav-link.active {
-  border-bottom: 4px solid #fff;
-}
-
-.nav-item .nav-link:hover {
-  color: #fff;
+.nav-item {
+  .nav-link {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-link.active { border-bottom: 4px solid #fff;}
+  .nav-link:hover { color: #fff; }
 }
 
 .executives, .company-info {
@@ -33,11 +25,9 @@ body {
 
 .next-launches {
   color: #fff;
+  .site-name { min-width: 300px; }
 }
 
-.site-name {
-  min-width: 300px;
-}
 
 .countdownTime {
   line-height: 1;
