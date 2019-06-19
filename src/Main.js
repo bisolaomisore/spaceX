@@ -16,7 +16,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <Nav className="justify-content-center py-4" variant="pills" defaultActiveKey="/">
+          <Nav className="justify-content-center py-4" defaultActiveKey="/">
             <Nav.Item>
               <Nav.Link as={NavLink} exact to="/">Countdown</Nav.Link>
             </Nav.Item>

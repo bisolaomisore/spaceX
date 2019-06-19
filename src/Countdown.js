@@ -46,7 +46,7 @@ class Countdown extends Component {
     let minutes = Math.floor(delta / 60) % 60;
     let seconds = Math.floor(delta % 60)
     return (
-      <Row className="pt-5">
+      <Row className="pt-3">
         <Col>
           <div className="countdownTime">{days}</div>
           <div className="countdownMeasure">DAYS</div>

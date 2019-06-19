@@ -9,11 +9,15 @@ body {
 
 .nav-link {
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-item .nav-link.active {
-  background-color: #fff;
-  color: #000;
+  border-bottom: 4px solid #fff;
+}
+
+.nav-item .nav-link:hover {
+  color: #fff;
 }
 
 .executives, .company-info {
